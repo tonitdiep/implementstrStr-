@@ -11,3 +11,13 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 Example 1)
 Input: haystack = "hello", needle = "ll"
 Output: 2
+
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+var strStr = function(haystack, needle) {
+  return haystack.indexOf(needle)
+
+}
